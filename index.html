@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="image\favicon.ico">
+  <title>NILESH KUMAR</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=KoHo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 0) {
+          $(".topbar").css({
+            "opacity": ".9"
+          })
+        } else {
+          $(".topbar").css({
+            "opacity": "0"
+          })
+        }
+      })
+    })
+  </script>
+</head>
+
+<body style="font-family: 'KoHo', sans-serif;">
+  <div class="" id="blur">
+    <div class="topbar">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <!-- <div class="container"> -->
+        <a class="navbar-brand text-light fs-1 px-3" href="#">NILESH KUMAR</a>
+        <button class="navbar-toggler nav-btn me-4" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end nav1" id="navbarTogglerDemo01">
+          <ul class="navbar-nav text-uppercase text-light fw-bold ">
+            <li class="nav-item pt-3"><a class="nav-link px-3" href="#">Home</a></li>
+            <li class="nav-item pt-3"><a class="nav-link px-3" href="#about">About</a></li>
+            <li class="nav-item pt-3"><a class="nav-link  fw-bold px-3 me-5" href="#follow">Social</a></li>
+            <li class="nav-item pt-3">
+              <a href="mailto:nileshkumar.nkmr@gmail.com" class="btn btn-success rounded-pill text-light mx-3">
+                CONTACT
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <section id="header">
+      <video autoplay muted loop id="myVideo">
+        <source src="image/video.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="title justify-content-start bg-transparent">
+        <div id="firstIntro">
+          <h4 class="text-success px-2 py-2">Hi,my name is</h4>
+          <h1 class="text-light fs-1 fw-bold px-2">NILESH KUMAR</h1>
+          <h3 class="text-light fs-4 px-2">TURN IDEAS INTO REALITY</h3>
+        </div>
+        <a href="mailto:nileshkumar.nkmr@gmail.com" class="btn btn-success btn-hover mt-3 rounded-pill text-light mx-4">
+          Contact
+        </a>
+      </div>
+    </section>
+    <hr class="bg-light pt-1 mt-5 mx-5">
+    <section id="about">
+      <div class="row about-box justify-content-center">
+        <div class="col-lg-3 col-12 my-3 align-middle pt-2  px-2">
+          <img src="image/profiles.png" class="" width="100%" height="auto" alt="">
+        </div>
+        <div class="col-lg-9 col-12 my-3 text-light pt-2 pb-5">
+          <h1 class="fs-1 text-uppercase fw-bold">About Me</h1>
+          <p class="fs-5 text-uppercase">Hello, my name is nilesh kumar. a developer who tries to find daily life
+            problem’s solution through the power of technology.</p>
+          <hr>
+          <p class="fs-6">My goal is to lead this society to a new generation of technology by the innovations.</p>
+          <h1 class="fs-4 pt-5 fw-bold">Contact Me</h1>
+          <span><a href="mailto:nileshkumar.nkmr@gmail.com"><i
+                class="fas fa-envelope me-3"></i>nileshkumar.nkmr@gmail.com</a></span><br>
+          <span id="p2"><button class="bg-transparent border-0 ps-0 text-light" onclick="copyToClipboard('#p2')"><i
+                class="fas fa-mobile-alt me-3"></i>+91-8427619131</button></span><br>
+          <span class="mb-5"><u style="border-bottom: 1px dashed; text-decoration: none;">Resume:</u> <a
+              href="https://drive.google.com/file/d/1EjaBXyQtt1H2vv-_8BBOg5U-o_PtqNUo/view?usp=sharing" target="_blank">Click here to
+              view
+              Resume</a></span>
+          <script type="text/javascript">
+            function copyToClipboard(element) {
+              var $temp = $("<input>");
+              $("body").append($temp);
+              $temp.val($(element).text()).select();
+              document.execCommand("copy");
+              $temp.remove();
+            }
+          </script>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-6 my-3 col-12">
+          <div class="card bg-dark text-light">
+            <div class="card-header">
+              <h1>My skills</h1>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>Android development</li>
+                <li>Arduino programming</li>
+                <li>3D-modelling [AutoCAD, blender]</li>
+                <li>Python programming</li>
+                <li>Java programming</li>
+                <li>C programming</li>
+                <li>C ++ programming</li>
+                <li>Video editing </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 my-3 col-12">
+          <div class="card bg-dark text-light">
+            <div class="card-header">
+              <h1>Interests</h1>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>Painting</imgli>
+                <li>Learning about cosmos</li>
+                <li>Music mixing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 my-3 col-12">
+          <div class="card bg-dark text-light">
+            <div class="card-header">
+              <h1>Project Built</h1>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>Android Application:
+                  <ol>
+                    <li><a href="https://play.google.com/store/apps/details?id=us.apps.pariksha" target="_blank">Pariksha</a> [Online
+                      Quiz hosting application]</li>
+                    <li><a href="https://play.google.com/store/apps/details?id=us.apps.passwordcreator" target="_blank">Password
+                        generator</a> [It can create 10<sup>100</sup> number of password using one word]</li>
+                    <li>Controller [It can controll powering on/off a electronic device from anywhere in world]</li>
+                    <li>iCare [It can send loaction of driver, if the vehicle get hit or involved in accident. There are
+                      sensors installed in cars to detect an accident and the cars sends the signal of accident to
+                      mobile application. after that application send a voicemail to the selected members and a alert to
+                      emergency services for rescue.]</li>
+                  </ol>
+                </li>
+                <br>
+                <li>Python Projects:
+                  <ol>
+                    <li>Parking Record [Using Machine learning, it records the every car entered in a parking lot and
+                      record data like: number plate, a photo of vehicle, time, speed.]</li>
+                    <li>Image to Text [Its detects the text present on image and covert the text in the form of .txt
+                      file]</li>
+                    <li>Game: Stone-Paper-Scissors [In this game user have to compete against computer to win.]</li>
+                  </ol>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="bg-light pt-1 mt-5 mx-5">
+    <section class="follow" id="follow"
+      style="background-image:url('image/b6.jpg');background-position: center;background-size: cover;">
+      <div class="row text-light mt-5 pt-5 justify-content-center text-center">
+        <h1 class="text-uppercase mt-5 mb-4 pt-5 fw-bold">follow on</h1>
+        <div class="col-lg-1 col-5 bg-text text-center">
+          <a class="text-light px-3 fs-1" href="https://github.com/nilesh-kumar-developer"><i
+              class="fab fa-github"></i></a>
+        </div>
+        <div class="col-lg-1 col-5 bg-text text-center">
+          <a class="text-light px-3 fs-1" href="https://www.linkedin.com/in/nilesh-kumar-a115b91a3"><i
+              class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="col-lg-1 col-5 bg-text text-center">
+          <a class="text-light px-3 fs-1" href="https://www.instagram.com/disiz_nilesh"><i
+              class="fab fa-instagram"></i></a>
+        </div>
+        <div class="col-lg-1 col-5 bg-text text-center">
+          <a class="text-light px-3 fs-1" href="https://www.facebook.com/nileshnkmr"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="col-lg-1 col-5 bg-text text-center">
+          <a class="text-light px-3 fs-1" href="https://twitter.com/nileshkkr"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+  </div>
+  </section>
+  <div id="footer" class="text-light" style="background-color:#000;">
+    <span>&copy; copyright : All Rights Reserved</span> <span id="developer"> - Nilesh Kumar</span>
+  </div>
+  </div>
+  </div>
+</body>
+
+</html>

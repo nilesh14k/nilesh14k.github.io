@@ -1,0 +1,161 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color:#000;
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+#header{
+  width: 100%;
+  height: 100vh;
+}
+#about{
+  width: 100%;
+  height: auto;
+  padding: 5% 5%;
+}
+#header .title{
+  position: absolute;
+  left:10%;
+  top:35%;
+}
+#firstIntro{
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+.card-header{
+  background: black;
+  font-size: 25px;
+  font-weight: bold;
+  color:white;
+}
+#myVideo{
+position: absolute ;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+}
+#bg-video{
+position: absolute ;
+top: 0;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100 vh;
+z-index: -1;
+}
+#about{
+  background-color: #000;
+}
+/* #about .about-box{
+  margin: 3% 10%;
+} */
+.follow{
+  padding: 15% 10%;
+  background-image: url("image/b3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#footer{
+  text-align: center;
+  padding:10px;
+}
+/* #footer #developer{
+  position: absolute;
+  right: 20px;
+} */
+.pd-form{
+  background-color:rgba(255,255,255,.9);
+  border-radius: 10px;
+}
+.pd-form input{
+  border: 0px solid black;
+}
+.pd-form textarea{
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 100%;
+}
+.detail{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding:0px 0px;
+}
+.detail-textarea{
+  border: 0px solid black;
+  border-radius: 10px;
+  height:40vh;
+  padding:0;
+}
+.d-grip button,label{
+  border-radius: 50px;
+}
+.d-grip label{
+  border-radius: 50px;
+}
+/* input[type="email"]{
+  border-radius: 80px;
+}
+input[type="text"]{
+  border-radius: 80px;
+} */
+.bg{
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background-image: url("image/b1.jpg");
+  background-position: center;
+  background-size:cover;
+}
+.bg .row{
+  padding: 7% 4%;
+}
+
+.nav1{
+  padding-right:40px;
+}
+.line{
+   height:100%;
+   margin-left: 45%;
+   width:1%;
+   background-color:grey;
+}
+.card-body{
+  min-height: 250px;
+}
+.topbar{
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  transition: 1s;
+  opacity: 0;
+  background-color: black;
+  z-index: 2;
+}
+.btn-hover{
+  width: 150px;
+  margin: 0;
+}
+.btn-hover:hover{
+  transition: 0s;
+  width: 180px;
+  margin-left: 5px;
+  height: auto;
+  font-size: 20px;
+  transition: 1s;
+}
+.header_class{
+  width: 300px;
+  position: relative;
+  animation:mymove 3s;
+  animation-fill-mode:forwards;
+}
+@keyframes mymove {
+  from{left:-50%;}
+  to{left:0%;}
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
