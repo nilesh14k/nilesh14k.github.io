@@ -11,7 +11,7 @@ const About = () => {
           </a>
           <br />
           <a className="slide2" href="mailto:nilesh_kumar_nk@outlook.com">
-            Get in Tough
+            Get in Touch
           </a>
         </GetInTouch>
         <FooterLink>
