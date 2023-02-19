@@ -7,7 +7,7 @@ const About = () => {
       <AboutLayout>
         <GetInTouch>
           <a className="slide1" href="mailto:nilesh_kumar_nk@outlook.com">
-            Get in Tough
+            Get in Touch
           </a>
           <br />
           <a className="slide2" href="mailto:nilesh_kumar_nk@outlook.com">
@@ -17,6 +17,7 @@ const About = () => {
         <FooterLink>
           <a href="#">Twitter</a>
           <a href="#">Facebook</a>
+          <a href="https://www.linkedin.com/in/nilesh14k/">LinkedIn</a>
           <a href="https://github.com/nilesh14k">Github</a>
           <a href="https://www.instagram.com/nilesh14k/">Instagram</a>
         </FooterLink>
@@ -26,7 +27,8 @@ const About = () => {
 };
 
 const AboutLayout = styled.div`
-  position: fixed;
+  position: relative;
+  top: 100;
   width: 100%;
   height: 100%;
   padding: 20% 0;

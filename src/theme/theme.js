@@ -1,4 +1,4 @@
 export const Theme = {
-  bgColor: "#635985",
+  bgColor: "#F9F5E7",
   textColor: "black",
 };
