@@ -15,8 +15,8 @@ const About = () => {
           </a>
         </GetInTouch>
         <FooterLink>
-          <a href="#">Twitter</a>
-          <a href="#">Facebook</a>
+          <a href="https://www.twitter.com/nilesh14k/">Twitter</a>
+          <a href="https://www.facebook.com/nilesh14k/">Facebook</a>
           <a href="https://www.linkedin.com/in/nilesh14k/">LinkedIn</a>
           <a href="https://github.com/nilesh14k">Github</a>
           <a href="https://www.instagram.com/nilesh14k/">Instagram</a>
