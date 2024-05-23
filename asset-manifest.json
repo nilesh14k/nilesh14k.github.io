@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/nilesh14k.github.io/static/css/main.d0b6d7c9.css",
-    "main.js": "/nilesh14k.github.io/static/js/main.ca2216a6.js",
-    "static/media/nilesh2.png": "/nilesh14k.github.io/static/media/nilesh2.e2257f569cd86df5d149.png",
-    "index.html": "/nilesh14k.github.io/index.html",
-    "main.d0b6d7c9.css.map": "/nilesh14k.github.io/static/css/main.d0b6d7c9.css.map",
-    "main.ca2216a6.js.map": "/nilesh14k.github.io/static/js/main.ca2216a6.js.map"
+    "main.css": "/static/css/main.d0b6d7c9.css",
+    "main.js": "/static/js/main.ce3491df.js",
+    "static/media/nilesh2.png": "/static/media/nilesh2.e2257f569cd86df5d149.png",
+    "index.html": "/index.html",
+    "main.d0b6d7c9.css.map": "/static/css/main.d0b6d7c9.css.map",
+    "main.ce3491df.js.map": "/static/js/main.ce3491df.js.map"
   },
   "entrypoints": [
     "static/css/main.d0b6d7c9.css",
-    "static/js/main.ca2216a6.js"
+    "static/js/main.ce3491df.js"
   ]
 }
